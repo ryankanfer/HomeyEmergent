@@ -1,0 +1,19 @@
+🏠 HOMEY - AI Real Estate Assistant
+
+**"In your pocket. On your side."**
+
+HOMEY is a cutting-edge AI-powered real estate assistant designed specifically for NYC. Built with Next.js and powered by OpenAI GPT-4.
+
+## ✨ Features
+
+- 6 AI Avatars for complete real estate guidance
+- OpenAI GPT-4 integration for real conversations
+- Immersive visionOS-style design
+- Netflix-style journey interface
+- Complete MongoDB backend
+
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
