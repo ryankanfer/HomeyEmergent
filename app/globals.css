@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --cream: 246 244 241;
+    --slate-gray: 47 79 79;
+    --charcoal: 47 47 47;
+    --sand: 217 203 184;
+    --mint: 185 217 208;
+    --accent-gold: 212 175 55;
+  }
+  
+  body {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .font-body {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .font-ui {
+    font-family: 'Lato', sans-serif;
+  }
+}
